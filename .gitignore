@@ -1,0 +1,39 @@
+# Operating-system files
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Adobe / media working files (keep source projects outside this repository)
+*.aep
+*.aepx
+*.aet
+*.mogrt
+*.prproj
+*.c4d
+*.psd
+*.ai
+*.wav
+*.mp3
+*.mp4
+*.mov
+*.mxf
+*.zip
+
+# Renders and caches
+renders/
+output/
+cache/
+proxies/
+*.log
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Editors
+.vscode/
+.idea/
+*.swp
+

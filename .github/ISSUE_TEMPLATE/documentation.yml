@@ -1,0 +1,22 @@
+name: Documentation improvement
+description: Report unclear, missing, or incorrect production guidance.
+title: "[Docs] "
+labels: ["documentation"]
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem
+      description: What is unclear or missing?
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Proposed improvement
+  - type: input
+    id: version
+    attributes:
+      label: Host/version context
+      placeholder: "Example: After Effects 24.x, Windows 11"
+

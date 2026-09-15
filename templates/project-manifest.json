@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0",
+  "project": "PROJECT_NAME",
+  "deliverable": "DELIVERABLE_NAME",
+  "revision": "V001",
+  "owner": "TEAM_OR_PERSON",
+  "status": "draft",
+  "host": {
+    "application": "Adobe After Effects",
+    "version": "HOST_VERSION",
+    "operating_system": "OS_VERSION",
+    "renderer": "RENDERER_OR_NOT_APPLICABLE"
+  },
+  "composition": {
+    "name": "MST_PROJECT_SUBJECT_V001",
+    "width": 1920,
+    "height": 1080,
+    "frame_rate": 24,
+    "duration_seconds": 10,
+    "pixel_aspect": "1.0",
+    "start_timecode": "00:00:00:00"
+  },
+  "color": {
+    "working_space": "DOCUMENT_WORKING_SPACE",
+    "input_policy": "DOCUMENT_INPUT_POLICY",
+    "output_transform": "DOCUMENT_OUTPUT_TRANSFORM",
+    "bit_depth": "16-bpc"
+  },
+  "audio": {
+    "mode": "embedded|sidecar|none",
+    "sample_rate_hz": 48000,
+    "channels": "stereo|mono|multichannel|none",
+    "loudness_target": "TARGET_OR_NOT_APPLICABLE"
+  },
+  "dependencies": {
+    "fonts": ["FONT_NAME_AND_LICENSE_REFERENCE"],
+    "plugins": ["PLUGIN_NAME_AND_VERSION_OR_NONE"],
+    "media_root": "RELATIVE_MEDIA_ROOT"
+  },
+  "outputs": [
+    {
+      "kind": "review",
+      "filename_pattern": "PROJECT_DELIVERABLE_V001_YYYY-MM-DD_REVIEW.ext",
+      "codec": "APPROVED_CODEC",
+      "alpha": false
+    }
+  ],
+  "known_limitations": ["REPLACE_WITH_NOTES"]
+}
+

@@ -1,0 +1,25 @@
+{
+  "schema_version": "1.0",
+  "template_name": "TEMPLATE_NAME",
+  "master_comp": "MST_TEMPLATE_V001",
+  "tested_host_version": "HOST_VERSION",
+  "controls": [
+    {
+      "name": "Headline - text",
+      "type": "text",
+      "default": "EDITABLE_PLACEHOLDER",
+      "constraints": "Maximum 48 characters; test line breaks"
+    },
+    {
+      "name": "Accent color",
+      "type": "color",
+      "default": "#FFFFFF",
+      "constraints": "Approved palette only"
+    }
+  ],
+  "media_placeholders": [],
+  "fonts": ["FONT_NAME_AND_LICENSE_REFERENCE"],
+  "plugins": [],
+  "fallback_behavior": "Describe what remains usable when a control is unavailable."
+}
+
